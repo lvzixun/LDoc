@@ -16,6 +16,9 @@
 -- @license MIT/X11
 -- @script ldoc
 
+-- bootstrap
+package.path = package.path .. ";Penlight/lua/?.lua"
+
 local class = require 'pl.class'
 local app = require 'pl.app'
 local path = require 'pl.path'
